@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header .navbar{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+.nav-logo{
+    width: 8%;
+}
+.nav-logo img{
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav-address{
+    padding: 2px;
+    width: 6%;
+    height: 80%;
+    font-size: 12px;
+}
+.nav-address .address-icon{
+    margin-top: 2px;
+    display: flex;
+}
+.nav-address .address-icon p{
+    margin-left: 5px;
+}
+.bold{
+    font-weight: bold;
+}
+.nav-address span {
+    color: #CCCCCC;
+    font-size: 15px;
+}
+.select{
+    display: flex;
+    width: 50%;
+    height: 40px;
+}
+.select select,button,input{
+    height: 100%;
+}
+.select button{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(245, 167, 22);
+    border: none;
+    width: 45px;
+}
+.select button:hover{
+    background-color: rgb(207, 135, 1);
+}
+.select input{
+    width: 550px;
+    border: none;
+}
+#Select{
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    border: none;
+}
+#Select2{
+    color: white;
+    border: none;
+    background-color: black;
+}
+.select-lang{
+    padding-top: 10px;
+    width: 6%;
+    height: 40px;
+}
+.select-lang img{
+    width: 20px;
+}
+.sign-in{
+    width: 8%;
+    height: 40px;
+}
+.sign-in p span{
+    font-size: 12px;
+}
+.sign-in .p2{
+    font-size: 12px;
+}
+.cart{
+    display: flex;
+    width: 8%;
+    height: 40px;
+}
+.cart i{
+    font-size: 33px;
+    padding-right: 5px;
+}
+.cart p{
+    margin-top: 15px;
+}
+.pannel{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(34, 22, 63);
+}
+.left{
+    display: flex;
+    width: 82%;
+    font-size: 15px;
+}
+.all{
+    display: flex;
+    height: 30px;
+    width:5%;
+}
+.all i{
+    margin-right: 10px;
+}
+.pannel .other{
+    display: flex;
+    width: 70%;
+}
+.pannel .other p{
+    padding: 0px 10px 0px 10px;
+}
+
+.pannel .pannel-right a{
+    color: white;
+    text-decoration: none;
+}
+.image{
+    background-image: url("bgImage.jpg");
+    background-size: cover;
+    height: 300px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+}
+.box{
+    margin: 20px 0px 20px 0px;
+    height: 400px;
+    width: 22%;
+    background-color: white;
+}
+.heading{
+    margin: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.box-1 img{
+    margin: 15px;
+    width: 100px;
+    height: 60px;
+}
+.box-1 p{
+    margin-left: 15px;
+}
+.g-images{
+    margin: 25px 0px 25px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-1 .showmore{
+    margin-top: 25px;
+}
+.box-1 p a{
+    text-decoration: none;
+    color: black;
+}
+.box-1 p a:hover{
+    color: orange;
+}
+.box-2 .b2-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-2 .b2-img{
+    width: 100%;
+    height: 70%;
+}
+.box-2 .b2-img img{
+    width: 90%;
+    height: 100%;
+}
+.box-2 .shopnow{
+    margin: 20px 0px 0px 10px;
+}
+.box-2 p a{
+    text-decoration: none;
+    color: black;
+}
+.box-2 p a:hover{
+    color: orange;
+}
+footer .panel-1{
+    background-color: rgb(28, 19, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+footer .panel-1 a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .panel-1:hover{
+    background-color: rgb(39, 22, 78);
+}
+footer .panel-2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 100%;
+    background-color: #24222b;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.panel-2 ul{
+    margin: 20px 0px 20px 0px;
+}
+.panel-2 ul li{
+    margin: 10px;
+}
+footer .panel-2 ul li{
+    list-style: none;
+}
+footer .panel-2 ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer .panel-2 ul li a:hover{
+    color: white;
+    text-decoration-line: underline;
+}
+footer .panel-3{
+    background-color: #24222b;
+    width: 100%;
+    height: 100px;
+}
+.panel-3 .p3-contents{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer i{
+    margin-right: 5px;
+}
+.panel-3 .p3-contents .country{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 12%;
+    height: 40px;
+}
+.panel-3 .p3-contents .country a{
+    text-decoration: none;
+    color: white;
+}
+.panel-3 .p3-contents .country img{
+    width: 40px;
+    height: 20px;
+    margin-right: 5px;
+}
+footer .panel-3 .p3-contents .footer-logo{
+    width: 10%;
+    height: 80%;
+    margin-right: 15px;
+}
+footer .panel-3 .p3-contents .footer-logo img{
+    width: 100%;
+    height: 100%;
+}
+.panel-3 .p3-contents .footer-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 10%;
+    height: 40px;
+    margin-right: 15px;
+}
+.panel-3 .p3-contents .footer-select select{
+    background-color: #24222b;
+    color: white;
+    border: none;
+}
+.panel-3 .p3-contents .money{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 12%;
+    height: 40px;
+    margin-right: 15px;
+}
+.panel-3 .p3-contents .money a{
+    text-decoration: none;
+    color: white;
+}
+footer .panel-4{
+    background-color: rgb(34, 22, 63);
+    width: 100%;
+    height: 80px;
+}
+footer .panel-4 .pages{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+}
+footer .panel-4 .pages a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-size: 13px;
+}
+footer .panel-4 .pages a:hover{
+    text-decoration-line: underline;
+}
+footer .panel-4 p{
+    color: white;
+}
+footer .panel-4 .copywrite{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
