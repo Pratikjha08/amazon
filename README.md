@@ -1,2 +1,2 @@
 # amazon
-amazon clone
+Basic amazon clone made using HTML and CSS
